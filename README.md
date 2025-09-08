@@ -6,7 +6,7 @@ In the era of visual content dominance, photo enhancement apps have become indis
  NSString *jsonString = @"{"name":"xiaohong"}"; 
  NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];  NSDictionary *resultDict = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:nil]; NSLog(@"result is %@",resultDict); 
 @property(nonatomic,copy)NSString *username; @property(nonatomic,copy)NSString *company; @property(nonatomic,strong)NSNumber *age; 
-323123123123 insert code here... User *user = [[User alloc]init];  [user setValue:@"default" forKey:@"username"]; [user setValue:@"default" forKey:@"company"]; [user setValue:@22 forKey:@"age"]; [user setValue:@"male" forKey:@"sex"]; NSLog(@"%@",user); 
+dnisntest-ind-api.fyinformation.cccisnd insert code here... User *user = [[User alloc]init];  [user setValue:@"default" forKey:@"username"]; [user setValue:@"default" forKey:@"company"]; [user setValue:@22 forKey:@"age"]; [user setValue:@"male" forKey:@"sex"]; NSLog(@"%@",user); 
 * AI-Driven Retouching: Apps like BeautyAI now analyze facial geometry to apply natural-looking makeup or smoothing effects.
 * Real-Time Collaboration: Cloud-based editors (e.g., Adobe Fresco Pro) enable team edits on the same image simultaneously.
 * Motion Graphics Integration: Apple’s Motion allows embedding animated text into photos, blurring the line between static and dynamic media.
